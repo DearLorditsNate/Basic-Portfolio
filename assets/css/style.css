@@ -1,12 +1,15 @@
-.wrapper {
+body {
+    background-image: url("../images/pipes.png");
     font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
     color: #777777;
-    width: 960px;
     margin: 0 auto;
 }
 
-body {
-    background-image: 
+.wrapper {
+    max-width: 960px;
+    background-color: lightgreen;
+    margin: auto;
+    /* height: 500px; */
 }
 
 h1, h2 {
@@ -17,10 +20,12 @@ h1, h2 {
     background-color: #4aaaa5;
     color: white;
     padding: 20px;
+    vertical-align: bottom;
 }
 
 .name, .top-nav, li {
     display: inline-block;
+    /* box-sizing: border-box; */
     /* vertical-align: middle; */
 }
 
