@@ -29,6 +29,7 @@ h1, h2 {
     background-color: #4aaaa5;
     color: white;
     padding: 20px;
+    /* need to figure out how to line up name to the bottom of the container div */
     vertical-align: baseline;
 }
 
@@ -37,6 +38,7 @@ h1, h2 {
 }
 
 .top-nav {
+    /* need to figure out how to line up top-nav to the bottom of the container div */
     vertical-align: baseline;
     background-color: red;
     /* padding: 25px; */
