@@ -2,24 +2,36 @@ body {
     background-image: url("../images/pipes.png");
     font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
     color: #777777;
-    margin: 0 auto;
+    margin: 0;
+    padding: 0;
 }
 
-.container {
+.header-container,
+.body-container {
     max-width: 960px;
     background-color: lightgreen;
     margin: auto;
     text-align: justify;
 }
 
-.container:after{
+.header-container {
+    background-color: lightblue;
+}
+
+.body-container {
+    background-color: darkcyan;
+    clear: both;
+    overflow: auto;
+}
+
+/* .container:after{
     content: '';
     display: inline-block;
     width: 100%;
     height: 0;
     font-size:0;
     line-height:0;
-}
+} */
 
 h1, h2 {
     font-family: 'Georgia', Times, Times New Roman, serif;
@@ -30,7 +42,7 @@ h1, h2 {
     color: white;
     padding: 20px;
     /* need to figure out how to line up name to the bottom of the container div */
-    vertical-align: baseline;
+    /* vertical-align: baseline; */
 }
 
 #name, .top-nav, li {
@@ -39,7 +51,8 @@ h1, h2 {
 
 .top-nav {
     /* need to figure out how to line up top-nav to the bottom of the container div */
-    vertical-align: baseline;
+    /* vertical-align: baseline; */
+    float: right;
     background-color: red;
     /* padding: 25px; */
 }
