@@ -17,21 +17,11 @@ header {
     background-color: yellow;
 }
 
-.header-container,
-.body-container {
+.container {
     max-width: 960px;
     background-color: lightgreen;
     margin: auto;
-}
-
-.header-container {
-    background-color: lightblue;
     margin-bottom: 20px;
-    border: 0;
-}
-
-.body-container {
-    background-color: darkcyan;
 }
 
 h1, h2 {
