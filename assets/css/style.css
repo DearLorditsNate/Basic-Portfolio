@@ -1,3 +1,9 @@
+* {
+    -webkit-box-sizing: border-box;
+       -moz-box-sizing: border-box;
+            box-sizing: border-box;
+  }
+
 body {
     background-image: url("../images/pipes.png");
     font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
@@ -6,32 +12,27 @@ body {
     padding: 0;
 }
 
+header {
+    width: 100%;
+    background-color: yellow;
+}
+
 .header-container,
 .body-container {
     max-width: 960px;
     background-color: lightgreen;
     margin: auto;
-    text-align: justify;
 }
 
 .header-container {
     background-color: lightblue;
+    margin-bottom: 20px;
+    border: 0;
 }
 
 .body-container {
     background-color: darkcyan;
-    clear: both;
-    overflow: auto;
 }
-
-/* .container:after{
-    content: '';
-    display: inline-block;
-    width: 100%;
-    height: 0;
-    font-size:0;
-    line-height:0;
-} */
 
 h1, h2 {
     font-family: 'Georgia', Times, Times New Roman, serif;
@@ -41,8 +42,10 @@ h1, h2 {
     background-color: #4aaaa5;
     color: white;
     padding: 20px;
-    /* need to figure out how to line up name to the bottom of the container div */
-    /* vertical-align: baseline; */
+    width: 30%;
+    height: 100%;
+    margin: 0;
+    margin-right: 20px;
 }
 
 #name, .top-nav, li {
@@ -50,21 +53,16 @@ h1, h2 {
 }
 
 .top-nav {
-    /* need to figure out how to line up top-nav to the bottom of the container div */
-    /* vertical-align: baseline; */
-    float: right;
+    width: 65%;
     background-color: red;
-    /* padding: 25px; */
+    text-align: right;
 }
 
 .top-nav li {
     padding: 10px;
+
 }
 
 .profile-img {
     width: 150px;
-}
-
-header {
-    background-color: yellow;
 }
