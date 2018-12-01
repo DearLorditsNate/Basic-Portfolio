@@ -12,6 +12,10 @@ body {
     padding: 0;
 }
 
+h1, h2 {
+    font-family: 'Georgia', Times, Times New Roman, serif;
+}
+
 header {
     width: 100%;
     background-color: yellow;
