@@ -80,7 +80,7 @@ index.html | Main Section - Portfolio
 }
 
 .profile-img {
-    width: 140px;
+    width: 180px;
     margin: 5px 15px;
 }
 
@@ -118,6 +118,44 @@ button {
     color: #fff;
     padding: 8px 24px;
     font-size: 18px;
+}
+
+/* 
+===================================
+portfolio.html | Main Section - Portfolio
+===================================
+*/
+
+h3 {
+    background-color: #4aaaa5;
+    text-align: center;
+    width: 275px;
+    margin: auto;
+    margin-bottom: 50px;
+    position: relative;
+    bottom: 60px;
+    padding: 15px;
+    color: #fff;
+}
+
+.portfolio {
+    /* width: 100%; */
+}
+
+.portfolio-item {
+    width: 33%;
+    display: inline-block;
+    margin: auto;
+}
+
+.portfolio-item a {
+    text-decoration: none;
+}
+
+.portfolio-img {
+    width: 275px;
+    display: block;
+    margin: auto;
 }
 
 /* 
