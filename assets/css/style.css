@@ -16,20 +16,27 @@ h1, h2 {
     font-family: 'Georgia', Times, Times New Roman, serif;
 }
 
+h2 {
+    color: #4aaaa5;
+    border-bottom: 3px solid #ccc;
+    padding-bottom: 20px;
+    font-size: 30px;
+}
+
 header {
     width: 100%;
-    background-color: yellow;
+    background-color: #fff;
+    border-bottom: 2px solid #ccc;
 }
 
 .container {
     max-width: 960px;
-    background-color: lightgreen;
+    background-color: #fff;
     margin: auto;
-    margin-bottom: 20px;
 }
 
-h1, h2 {
-    font-family: 'Georgia', Times, Times New Roman, serif;
+#name, .top-nav {
+    display: inline-block;
 }
 
 #name {
@@ -39,24 +46,46 @@ h1, h2 {
     width: 30%;
     height: 100%;
     margin: 0;
-    margin-right: 20px;
-}
-
-#name, .top-nav, li {
-    display: inline-block;
+    margin-right: 40px;
+    text-align: center;
 }
 
 .top-nav {
     width: 65%;
-    background-color: red;
+    /* background-color: red; */
     text-align: right;
 }
 
-.top-nav li {
+.top-nav a {
     padding: 10px;
+    text-decoration: none;
+    color: #777777;
+    border-right: 1px solid #ddd;
+}
 
+nav a:last-child {
+    border-right: none;
+}
+
+nav a:hover {
+    color: #4aaaa5;
+}
+
+.body {
+    border: 2px solid #ddd;
+    margin-top: 20px;
+    padding: 30px;
+}
+
+.wrap-text {
+    float: left;
 }
 
 .profile-img {
-    width: 150px;
+    width: 140px;
+    margin: 5px 15px;
+}
+
+footer {
+    clear: both;
 }
